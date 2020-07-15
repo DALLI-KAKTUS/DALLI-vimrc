@@ -43,5 +43,16 @@ set mouse=a
  Plug '~/my-prototype-plugin'
  Plug 'stevearc/vim-arduino'
  Plug 'sudar/vim-arduino-syntax'
+ Plug 'akiomik/git-gutter-vim'
+ Plug 'terryma/vim-multiple-cursors'
+ Plug 'tpope/vim-surround'
+ Plug 'scrooloose/syntastic'
+ Plug 'valloric/youcompleteme'
+
 " Initialize plugin system
  call plug#end()
+ let NERDTreeWinSize = 23
+ let NERDTreeQuitOnOpen =1
+ let NERDTreeMinimalUI = 1
+ let NERDTreeDirArrows = 1
+ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType =="primary") | q | endif
