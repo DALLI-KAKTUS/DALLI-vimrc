@@ -47,8 +47,8 @@ set mouse=a
  Plug 'terryma/vim-multiple-cursors'
  Plug 'tpope/vim-surround'
  Plug 'scrooloose/syntastic'
- Plug 'valloric/youcompleteme'
-
+ Plug 'shougo/neco-vim'
+ Plug 'shougo/neocomplete.vim'
 " Initialize plugin system
  call plug#end()
  let NERDTreeWinSize = 23
